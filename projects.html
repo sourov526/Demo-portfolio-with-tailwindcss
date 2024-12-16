@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio | Projects</title>
+  <link href="./styles/output.css" rel="stylesheet">
+</head>
+<body class="bg-white dark:bg-gray-900 text-gray-800 dark:text-gray-100">
+
+  <!-- Navbar -->
+  <nav class="bg-blue-600 p-4 dark:bg-gray-800">
+    <div class="container mx-auto flex justify-between items-center">
+      <a href="index.html" class="text-white font-bold text-2xl">Portfolio</a>
+      <ul class="flex space-x-4">
+        <li><a href="index.html" class="hover:text-gray-200">Home</a></li>
+        <li><a href="about.html" class="hover:text-gray-200">About</a></li>
+        <li><a href="projects.html" class="hover:text-gray-200">Projects</a></li>
+        <li><a href="contact.html" class="hover:text-gray-200">Contact</a></li>
+      </ul>
+      <button id="theme-toggle" class="text-white">🌙</button>
+    </div>
+  </nav>
+
+  <!-- Projects Section -->
+  <section class="container mx-auto my-12 px-4">
+    <h2 class="text-3xl font-bold mb-6">My Projects</h2>
+
+    <div class="grid md:grid-cols-2 gap-8">
+      <!-- Project 1 -->
+      <div class="bg-gray-100 dark:bg-gray-800 p-6 rounded-lg shadow-md">
+        <img src="./assets/images/project1.jpg" alt="Project 1" class="mb-4 rounded">
+        <h3 class="text-2xl font-semibold mb-2">Project One</h3>
+        <p class="mb-4">This is a brief description of Project One. It's a web application built with HTML, CSS, and JavaScript.</p>
+        <a href="#" class="text-blue-500 hover:underline">View Project</a>
+      </div>
+
+      <!-- Project 2 -->
+      <div class="bg-gray-100 dark:bg-gray-800 p-6 rounded-lg shadow-md">
+        <img src="./assets/images/project2.jpg" alt="Project 2" class="mb-4 rounded">
+        <h3 class="text-2xl font-semibold mb-2">Project Two</h3>
+        <p class="mb-4">This is a brief description of Project Two. It's a React-based application with dynamic features.</p>
+        <a href="#" class="text-blue-500 hover:underline">View Project</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-800 p-4 text-center text-white">
+    &copy; 2024 John Doe. All rights reserved.
+  </footer>
+
+  <script src="./js/script.js"></script>
+</body>
+</html>
